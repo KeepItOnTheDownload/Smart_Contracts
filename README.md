@@ -209,8 +209,4 @@ Another tutorial is available at [EthereumDev.io](https://ethereumdev.io/)
 
 If you enjoy building games, here's an excellent tutorial called [CryptoZombies](https://cryptozombies.io/)
 
-## Submission
 
-Create a `README.md` that explains what testnet the contract is on, the motivation for the contract.
-
-Upload this to a Github repository that explains how the contract works, and provide the testnet address for others to be able to send to.
