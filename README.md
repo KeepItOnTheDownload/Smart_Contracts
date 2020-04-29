@@ -16,11 +16,11 @@ Fortunately, you've been learning how to program smart contracts with Solidity! 
 
 ## Files
 
-* [`AssociateProfitSplitter.sol`](Starter-Code/AssociateProfitSplitter.sol) -- Level 1 starter code.
+* [`AssociateProfitSplitter.sol`](-Code/AssociateProfitSplitter.sol) -- Level 1  code.
 
-* [`TieredProfitSplitter.sol`](Starter-Code/TieredProfitSplitter.sol) -- Level 2 starter code.
+* [`TieredProfitSplitter.sol`](-Code/TieredProfitSplitter.sol) -- Level 2  code.
 
-* [`DeferredEquityPlan.sol`](Starter-Code/DeferredEquityPlan.sol) -- Level 3 starter code.
+* [`DeferredEquityPlan.sol`](-Code/DeferredEquityPlan.sol) -- Level 3  code.
 
 ## Instructions
 
@@ -34,7 +34,7 @@ This assignment has 3 levels of difficulty, with each contract increasing in com
 
 ### Starting your project
 
-Navigate to the [Remix IDE](https://remix.ethereum.org) and create a new contract called `AssociateProfitSplitter.sol` using the starter code for level one above.
+Navigate to the [Remix IDE](https://remix.ethereum.org) and create a new contract called `AssociateProfitSplitter.sol` using the  code for level one above.
 
 While developing and testing your contract, use the [Ganache](https://www.trufflesuite.com/ganache) development chain, and point MetaMask to `localhost:8545`, or replace the port with what you have set in your workspace.
 
@@ -92,7 +92,7 @@ Test the `deposit` function by sending various values. Keep an eye on the `emplo
 
 In this contract, rather than splitting the profits between Associate-level employees, you will calculate rudimentary percentages for different tiers of employees (CEO, CTO, and Bob).
 
-Using the starter code, within the `deposit` function, perform the following:
+Using the  code, within the `deposit` function, perform the following:
 
 * Calculate the number of points/units by dividing `msg.value` by `100`.
 
@@ -136,7 +136,7 @@ In this contract, we will be managing an employee's "deferred equity incentive p
 
   * Specific vesting periods, the dollar/crypto value of shares awarded, and the percentage equity stake (the percentage ownership of the company) all tend to vary according to the company, the specialized skills, or seniority of the employee, and the negotiating positions of the employee/company. If you receive an offer from a company offering equity (which is great!), just make sure you can clarify the current dollar value of those shares being offered (based on, perhaps, valuation implied by the most recent outside funding round). In other words, don’t be content with just receiving “X” number of shares without having a credible sense of what amount of dollars that “X” number represents. Be sure to understand your vesting schedule as well, particularly if you think you may not stick around for an extended period of time.
 
-Using the starter code, perform the following:
+Using the  code, perform the following:
 
 * Human Resources will be set in the constructor as the `msg.sender`, since HR will be deploying the contract.
 
@@ -209,8 +209,4 @@ Another tutorial is available at [EthereumDev.io](https://ethereumdev.io/)
 
 If you enjoy building games, here's an excellent tutorial called [CryptoZombies](https://cryptozombies.io/)
 
-## Submission
 
-Create a `README.md` that explains what testnet the contract is on, the motivation for the contract.
-
-Upload this to a Github repository that explains how the contract works, and provide the testnet address for others to be able to send to.
